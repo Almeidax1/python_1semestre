@@ -1,16 +1,22 @@
-##Almeida.
-kaua = "Ola" #string
+##Almeida 
+
+kaua = ("Olá, eu sou o Almeida")
 
 print(kaua)
 
-idade = 18 #int
+idade = 18
 
-print("minha idade", idade)
+print("Qual idade do kaua?")
 
-nome = input("What is your name" ) 
+print("Minha idade, idade", idade)
 
-print("Adorei conversar com voce, " + nome + "!" ) 
+##Numero
 
-cor_favorita = input("Qual sua cor favorita? ") 
 
-print(nome + " Eu gosto da cor " + cor_favorita + ".")
+import math 
+
+a = float(input("Escreva um numero:"))
+
+b = math.sqrt(a)
+print(b)
+
